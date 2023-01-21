@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p style="text-align: center;"><a href="pagina02.html">Ir para a página 2</a></p>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    
+    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero iure sapiente pariatur aspernatur eveniet esse dolorem officiis omnis, veritatis numquam ipsum doloremque facilis repellendus soluta magni totam unde. Voluptate, nobis.</h2>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <!-- <audio src="media/silent night dj williams.mp3" controls autoplay></audio> -->
+    <!--MP# WAV OGG-->
+    <audio preload="metadata" autoplay controls loop> 
+        <source src="media/silent night dj williams.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <video src="media/meuvideo.mp4" width="500" poster="imagens/capa.png" controls></video>
+
+    <h1>inserindo vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vMeKR9Od-N8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+</body>
+</html>
