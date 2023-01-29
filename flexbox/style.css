@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: linear-gradient(to left, rgba(178, 89, 219, 0.699), rgba(42, 24, 109, 0.671));
+}
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 255, 0.425);
+    text-align: center;
+}
+
+div.menu {
+    background-color: black;
+}
+
+main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: green;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+        
+}
+main > p {
+    background-color: rgb(75, 146, 122);
+    
+}
+
+main > div {
+    background-color: rgb(70, 156, 20);
+    
+}
+
+footer {
+    background-color: black;
+    color: white;    
+}
